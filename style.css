@@ -11,6 +11,24 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.player1 {
+    margin-left: 150px;
+}
+.player1.active {
+    color : #286795;
+}
+.player2 {
+    margin-right: 150px;
+}
+.player2.active {
+    color: slateblue;
+}
 section {
     display: grid;
     grid-template-columns: repeat(4,8rem);
